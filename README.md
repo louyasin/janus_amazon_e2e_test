@@ -37,10 +37,10 @@ Checks if products can be added to the cart.
 Includes tests for handling adding multiple quantities to the cart.
 
 ### Tests to add if given more time
-verifies "Buy Now" button completes checkout
-empty search query returns home page URL
-cannot add more than quantity of a product to the cart
-cannot add quantity 0 of a product to the cart
+1. verifies "Buy Now" button completes checkout
+2. empty search query returns home page URL
+3. cannot add more than quantity of a product to the cart
+4. cannot add quantity 0 of a product to the cart
 
 ### CI/CD Integration with Jenkins
 This project is configured for Continuous Integration using Jenkins, automating the running of Cypress end-to-end tests with each code change. Jenkins setup involves:
