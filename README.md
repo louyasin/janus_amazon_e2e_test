@@ -52,10 +52,4 @@ Adding build steps to install dependencies (npm install) and run Cypress tests (
 Reviewing test results and build status in Jenkins after each run.
 For detailed Jenkins setup, refer to the official Jenkins documentation.
 
-  
 
-## Contributing
-To contribute to this project, please fork the repository and create a pull request with your features or fixes.
-
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
