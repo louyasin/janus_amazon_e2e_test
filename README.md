@@ -42,8 +42,17 @@ empty search query returns home page URL
 cannot add more than quantity of a product to the cart
 cannot add quantity 0 of a product to the cart
 
-### CI/CD Integration
-(If applicable) These tests are configured to run in a CI/CD environment using [CI/CD tool]. The configuration is set up in the .yml file in the project root.  
+### CI/CD Integration with Jenkins
+This project is configured for Continuous Integration using Jenkins, automating the running of Cypress end-to-end tests with each code change. Jenkins setup involves:
+
+Creating a Freestyle project in Jenkins.
+Configuring source control with the project repository.
+Setting up build triggers (e.g., on push to the repository).
+Adding build steps to install dependencies (npm install) and run Cypress tests (npx cypress run).
+Reviewing test results and build status in Jenkins after each run.
+For detailed Jenkins setup, refer to the official Jenkins documentation.
+
+  
 
 ## Contributing
 To contribute to this project, please fork the repository and create a pull request with your features or fixes.
